@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f5fe68-299c-4dc3-a85f-447ac8aef159" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Other/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/BankManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Other/Friends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Other/TestFriends.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Car">
+  <component name="RunManager" selected="Application.Friends">
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Products.Car" />
       <module name="OnlineShopping" />
@@ -72,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Friends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Other.Friends" />
+      <module name="OnlineShopping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Friends" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.DayOfWeek" />
         <item itemvalue="Application.Customer" />
