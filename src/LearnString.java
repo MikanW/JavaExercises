@@ -1,7 +1,7 @@
 // Lecture 3 follow up
 public class LearnString {
 
-    // 27
+    // 26
     public static void creatingString() {
         String fruit = "Apple";
         String anotherFruit = "Apple";
@@ -15,7 +15,7 @@ public class LearnString {
         System.out.println(vegetable == anotherVegetable); // false
     }
 
-    // 28
+    // 27
     public static void upperAndLowerCase() {
         String myText = "abcdefg";
         System.out.println(myText.toUpperCase());
@@ -24,7 +24,7 @@ public class LearnString {
         System.out.println(myText2.toLowerCase());
     }
 
-    // 29
+    // 28
     public static void blankAndEmpty() {
         String myText = "";
         System.out.println(myText.isEmpty()); // true
@@ -40,13 +40,56 @@ public class LearnString {
 
         String myText5 = "a";
         System.out.println(myText5.isBlank()); // false
+    }
+
+    // 29
+    public static void replaceString() {
+        String myText = "Firf";
+        System.out.println(myText.replace("Firf", "Nice")) ;
+    }
+
+    // 30
+    public static void removeWhiteSpace() {
+        String firstName = "   Jake   ";
+        System.out.format("'%s'", firstName);
+        System.out.format("'%s'", firstName.strip());
+        System.out.format("'%s'", firstName.stripLeading());
+        System.out.format("'%s'", firstName.stripTrailing());
+        System.out.format("'%s'", firstName.trim());
+        System.out.format("'%s'", myStrip(firstName));
+    }
+
+
+    public static String myStrip( String text ) {
+        return text.replace(" ", "");
+    }
 
 
 
+    // 31
+    public static void getCharAt() {
+        String myText = "Apple";
+        int length = myText.length();
+        if (length>9) {
+            System.out.println(myText.charAt(9));
+        }
+        System.out.println(myText.charAt(3));
+    }
+
+    // 32
+
+    public static void compareString() {
+        String firstWord = "Apple";
+        String secondWord = "Banana";
+        System.out.println(firstWord.compareTo(secondWord));
     }
     public static void main(String[] args) {
         creatingString();
         upperAndLowerCase();
         blankAndEmpty();
+        replaceString();
+        removeWhiteSpace();
+        getCharAt();
+        compareString();
     }
 }
